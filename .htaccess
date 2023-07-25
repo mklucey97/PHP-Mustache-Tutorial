@@ -1,3 +1,4 @@
 <IfModule mod_rewrite.c>
-    Option  +FloowSymLinks
+    Options +FloowSymLinks
+	RewriteEngine On
 </IfModule>
