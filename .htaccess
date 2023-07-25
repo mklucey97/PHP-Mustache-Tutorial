@@ -1,4 +1,5 @@
 <IfModule mod_rewrite.c>
     Options +FloowSymLinks
 	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
 </IfModule>
