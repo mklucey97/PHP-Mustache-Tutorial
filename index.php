@@ -6,7 +6,7 @@ Mustache_Autoloader::register();
 
 $templates = new Templates();
 $page = $templates->getPageURL();
-
+$data = $templates->data($page);
 
 
 ?>
