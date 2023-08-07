@@ -4,7 +4,7 @@ require_once 'autoload.php';
 
 Mustache_Autoloader::register();
 
-
+$templates = new Templates();
 
 
 
