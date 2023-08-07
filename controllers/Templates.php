@@ -8,6 +8,8 @@ class Templates {
 		    [
 			'partials_loader' => new \Mustache_Loader_FilesystemLoader('views/partials'),
 			]
+		));
+		$this->nav = new Nav();
     }
 
 ?>
