@@ -4,7 +4,7 @@ class Templates {
 	private $nav;
 	
 	public function __construct() {
-		
+		$this->m = (new \Mustache_Engine(
     }
 
 ?>
