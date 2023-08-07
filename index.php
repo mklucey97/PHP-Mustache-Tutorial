@@ -8,5 +8,6 @@ $templates = new Templates();
 $page = $templates->getPageURL();
 $data = $templates->data($page);
 
+echo $templates->render($page, $data);
 
 ?>
