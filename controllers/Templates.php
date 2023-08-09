@@ -11,5 +11,13 @@ class Templates {
 		));
 		$this->nav = new Nav();
     }
+	
+	public function render($template, $data) {
+		
+		
+		
+		
+		
+	}
 
 ?>
