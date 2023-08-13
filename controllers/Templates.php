@@ -15,12 +15,9 @@ class Templates {
 	public function render($template, $data) {
 		$template = @file_get_contents('views'. $template.'.html');
 		if($template === false) {
-			
+			$template = file_get_contents('views/404.html');
 		}
-		
-		
-		
-		
+		return $this->render($template, $data);		
 	}
 
 ?>
