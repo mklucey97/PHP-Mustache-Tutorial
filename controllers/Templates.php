@@ -24,5 +24,7 @@ class Templates {
 		$url =  explode('?', $_SERVER['REQUEST_URL']);
 		return ($url[0] == '/' ? '/home' : $url[0]);
 	}
+	
+	public function data($page) {
 
 ?>
