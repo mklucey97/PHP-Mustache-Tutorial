@@ -19,5 +19,10 @@ class Templates {
 		}
 		return $this->render($template, $data);		
 	}
+	
+	public function getPageURL() {
+		$url =  explode('?', $_SERVER['REQUEST_URL']);
+		return ($url[0] == '/' ? '/home' : $url[0]);
+	}
 
 ?>
