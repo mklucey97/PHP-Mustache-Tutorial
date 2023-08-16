@@ -26,5 +26,8 @@ class Templates {
 	}
 	
 	public function data($page) {
-
+        $data['nav']['header'] = $this->nav->header();
+		$data['nav']['footer'] = $this->nav->footer();
+		switch ($page) {
+			case '/home':
 ?>
