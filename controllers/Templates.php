@@ -30,4 +30,6 @@ class Templates {
 		$data['nav']['footer'] = $this->nav->footer();
 		switch ($page) {
 			case '/home':
+			    $data['content'] = [
+				    'title' => 'Contact',
 ?>
