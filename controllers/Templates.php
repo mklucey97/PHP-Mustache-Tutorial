@@ -31,5 +31,6 @@ class Templates {
 		switch ($page) {
 			case '/home':
 			    $data['content'] = [
-				    'title' => 'Contact',
+				    'title' => 'Home',
+					'heading' => 'Welcome to the contact page!',
 ?>
