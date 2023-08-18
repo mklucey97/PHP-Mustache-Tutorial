@@ -33,4 +33,5 @@ class Templates {
 			    $data['content'] = [
 				    'title' => 'Home',
 					'heading' => 'Welcome to the contact page!',
-?>
+					'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+?>                ];           
