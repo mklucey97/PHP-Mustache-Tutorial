@@ -34,4 +34,6 @@ class Templates {
 				    'title' => 'Home',
 					'heading' => 'Welcome to the contact page!',
 					'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-?>                ];           
+?>              ];           
+                break;
+				case '/about':
