@@ -38,3 +38,6 @@ class Templates {
                 break;
 				case '/about':
 				    $data['content'] = [
+					    'title' => 'About',
+						'heading' => 'Welcome to the about page!',
+?>
