@@ -52,7 +52,7 @@ class Templates {
 			   ];
 			   break;
         }
-        
+        return $data;
     }
 }
 ?>
