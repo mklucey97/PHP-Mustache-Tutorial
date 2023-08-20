@@ -45,6 +45,8 @@ class Templates {
                 ];
                break;
 		   case '/contact':
+		       $data['content'] = [
+			       'title' => '404',
         }
         
     }
