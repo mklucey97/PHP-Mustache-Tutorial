@@ -2,7 +2,7 @@
 
 class Nav {
 
-
+   public function header() {
 
 
 ?>
