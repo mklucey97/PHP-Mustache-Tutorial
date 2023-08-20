@@ -41,8 +41,10 @@ class Templates {
                     'title' => 'About',
                     'heading' => 'Welcome to the about page!',
                     'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+					'additional' => ['item 1', 'item 2', 'item 3']
                 ];
                break;
+		   case '/contact':
         }
         
     }
