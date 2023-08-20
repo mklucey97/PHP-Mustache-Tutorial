@@ -48,6 +48,7 @@ class Templates {
 		       $data['content'] = [
 			       'title' => '404',
 				   'heading' => 'Oops! Page Not Found',
+				   'content' => 'This page cannot be found, please try again.'
         }
         
     }
