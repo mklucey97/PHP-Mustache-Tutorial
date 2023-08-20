@@ -47,6 +47,7 @@ class Templates {
 		   case '/contact':
 		       $data['content'] = [
 			       'title' => '404',
+				   'heading' => 'Oops! Page Not Found',
         }
         
     }
